@@ -1,0 +1,54 @@
+Given a sorted list and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+You may assume no duplicates in the list.
+
+Input Description:
+First line contains, n, target. n is the size of the list.(1<n,target<1000)
+Second line contains, n size of elements in a list of integers.
+
+Output Description:
+Print the index if the target is found. If not, return the index where it would be if it were inserted in order
+
+Sample Input:
+4 5
+1 4 7 9
+
+Sample Output:
+2
+
+Explanation:
+The given number is 5, it is not in the list so the 5 can be inserted in 2nd position.
+
+Sample Input:
+5 10
+2 4 6 8 10
+
+Sample Output:
+4
+
+Sample Input:
+3 103
+101 104 107
+
+Sample Output:
+1
+
+Sample Input:
+6 32
+12 23 27 32 34 37
+
+Sample Output:
+3
+
+Sample Input:
+5 202
+198 199 206 209 210 300
+
+Sample Output:
+2
+
+Sample Input:
+4 77
+33 44 55 88
+
+Sample Output:
+3
